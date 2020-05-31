@@ -1,0 +1,148 @@
+h1
+{
+    font-size:60px;
+    color:darkblue;
+    text-align: center;
+    padding-top: 300px;
+    
+
+}
+
+b{
+font-weight: bold;
+}
+
+.col-12 input[type=text] {
+    width: 50%;
+    padding:4px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 25%;
+    
+  }
+
+  input {
+    border-radius: 5px;
+    
+	min-width: 50%;
+	padding: 5px;
+	border: none;
+}
+
+  body{
+  background-color:lightsteelblue;
+  overflow-x: hidden;
+  }
+
+
+  #enter {
+	
+	padding: 5px 15px;
+    border-radius: 5px;
+    height:40px;
+	background-color: #025F70;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color:grey;
+	
+}
+
+ /* ul {
+	text-align: left;
+	margin-top: 10px;
+}
+
+/*li {
+	list-style: none;
+	padding: 10px 20px !important;
+	color:black;
+	font-weight: 600;
+	border: 2px black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background:lightslategray;
+	width:50%;
+	margin-left: 25%;
+}*/
+
+.fa fa-bookmark
+{
+    font-size:20px;
+}
+
+
+.delete {
+	display: none;
+}
+
+li > button {
+	font-weight: normal;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+	text-align: left;
+	
+	list-style: none;
+	padding:12px 6px;
+	color:whitesmoke;
+	font-weight: 600;
+	border: 2px black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background:rgb(56, 124, 163);
+	width:50%;
+	margin-left: 25%;
+    display: list-item;
+	text-align: -webkit-match-parent;
+	margin-top: 5px;
+}
+
+li:hover {
+	background:rgb(104, 160, 192);
+}
+
+/*ul li.checked::before {
+	content: '';
+	position: absolute;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	top: 10px;
+	left: 16px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+  }*/
+
+   li.checked {
+	text-decoration: line-through;
+	text-decoration-color: black;
+	
+		
+}
+
